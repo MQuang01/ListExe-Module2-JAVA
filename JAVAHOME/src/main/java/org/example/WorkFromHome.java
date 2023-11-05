@@ -12,8 +12,12 @@ public class WorkFromHome {
 
     public static void main(String[] args) {
         int number;
-//        boolean flag = false;
-/*
+        boolean flag = false;
+        System.out.println("Menu:");
+        System.out.println("1 : Bia");
+        System.out.println("2 : Heo");
+        System.out.println("3 : Bò");
+
         do {
             System.out.println("Mời nhập từ 1-3: ");
             number = scanner.nextInt();
@@ -26,6 +30,7 @@ public class WorkFromHome {
         }while (!flag);
         scanner.close();
 
+
         if(number == 1){
             System.out.println("Bạn đang chọn Bia");
         }
@@ -35,30 +40,7 @@ public class WorkFromHome {
         if(number == 3){
             System.out.println("Bạn đang chọn Bò");
         }
-*/
-        do {
-            System.out.println("Menu:");
-            System.out.println("1 : Bia");
-            System.out.println("2 : Heo");
-            System.out.println("3 : Bò");
-            System.out.println("Mời nhập từ 1-3: ");
-            number = scanner.nextInt();
 
-            switch (number)
-            {
-                case (1) :
-                    System.out.println("Bạn đang chọn Bia");
-                    break;
-                case (2) :
-                    System.out.println("Bạn đang chọn Heo");
-                    break;
-                case (3) :
-                    System.out.println("Bạn đang chọn Bò");
-                    break;
-                default :
-                    System.out.println("Không hợp lệ");
-            }
-        }while (number < 1 || number >3);
 
 
 
